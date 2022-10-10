@@ -4,7 +4,10 @@ import scipy as sp
 import scipy.io
 import matplotlib.pyplot as plt
 
-import d3s.algorithms as algorithms
+from addPath import *
+addPath()
+
+from d3s import algorithms
 
 plt.ion()
 
